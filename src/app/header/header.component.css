@@ -1,0 +1,48 @@
+.headerContainer{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    background: url(../../assets/images/finalSeren.GIF) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.comment{
+    background: url(https://i.imgur.com/M7zBFYW.jpg) no-repeat center center fixed; 
+}
+
+.headerTitle{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: aqua;
+    border: solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background: rgba(225, 225, 225, 0.6);
+    animation: headerDelay linear 1.5s;
+}
+
+@keyframes headerDelay{
+    0%{
+        opacity: 0;
+        top: 30%;
+        left: 45%;
+    }    
+    100%{
+        opacity: 1;
+        top: 50%;
+        left: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 600px) {
+    .headerTitle{
+        font-size: 10px;
+    }
+}

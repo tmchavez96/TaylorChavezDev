@@ -1,0 +1,106 @@
+.contentNav{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start left;
+    border-bottom: solid black;
+    border-bottom: solid black;
+    background-color: var(--lightBlue);
+    z-index: 900;
+    transition: 0.5s;
+}
+
+.hamburgerDiv{
+    position: sticky;
+    top: 0;
+    padding: 8px;
+    border-radius: 8px;
+    float: right;
+    text-align: center;
+    z-index: 990;
+    justify-content: flex-end;
+    background-color: var(--lightBlue);
+    cursor: pointer;
+    visibility: hidden;
+}
+
+
+.navItem{
+    position: relative;
+    text-align: center;
+    width: 150px;
+    padding: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    transition: 0.8s;
+    z-index: 1;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .hamburgerDiv{
+        visibility: visible;
+    }
+    .contentNav{
+        margin-left: -100%;
+    }
+
+    .navItem{
+        width: 75px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 450px) {
+    .hamburgerDiv{
+        visibility: hidden;
+    }
+    .contentNav{
+        margin-left: 0%;
+    }
+}
+
+.navItem:hover{
+    color: white;
+    
+}
+
+.navItem::before{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    top: -60px;
+    left : -60px;
+    transform: rotate(45deg);
+    background-color: black;
+    transition: 0.8s;
+    z-index: -1;
+}
+
+.navItem:hover::before{
+    width: 150px;
+    height: 100px;
+}
+
+.navItem::after{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    bottom: -60px;
+    right : -60px;
+    transform: rotate(45deg);
+    background-color: black;
+    transition: 0.8s;
+    z-index: -1;;
+}
+
+.navItem:hover::after{
+    width: 150px;
+    height: 100px;
+}

@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+body{
+    width: 100%;
+    background: #ebedf0;
+    font-family: Candara;
+    --lightBlue: #93bcfa;
+    --midBlue: #497dcc;
+    --darkBlue: #023773;
+    background-color: var(--darkBlue);
+}
+
+.hrefPadding{
+    width: 100%;
+    height: 100px;
+}

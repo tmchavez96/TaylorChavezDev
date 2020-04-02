@@ -1,0 +1,28 @@
+.aboutCont{
+    background-image: linear-gradient(to bottom right, var(--midBlue),var(--lightBlue),white,var(--lightBlue),var(--midBlue));
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    border: solid black 5px;
+    border-radius: 40px;
+    overflow: hidden;
+}
+
+.aboutHeader{
+    position: relative;
+    background-color: var(--midBlue);
+    border-bottom: solid black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.subAboutHeader{
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.subAboutDetails{
+    font-size: 20px;
+    padding: 20px;
+}
