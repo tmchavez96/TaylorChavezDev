@@ -1,5 +1,12 @@
-.contentNav{
+.navMeta{
     position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 800;
+}
+
+.contentNav{
+    position: absolute;
     top: 0;
     width: 100%;
     display: flex;
@@ -12,8 +19,9 @@
 }
 
 .hamburgerDiv{
-    position: sticky;
+    position: absolute;
     top: 0;
+    right: 0;
     padding: 8px;
     border-radius: 8px;
     float: right;

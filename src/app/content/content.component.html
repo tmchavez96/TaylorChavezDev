@@ -1,20 +1,22 @@
-<div class="contentNav" #navBar>
-    <a class="navItem" href="#skills">
-        Skills
-    </a>
-    <a class="navItem" href="#portfolio">
-        Portfolio
-    </a>
-    <a class="navItem" href="#about" >
-        About
-    </a>
-    <a class="navItem" href="#contact" >
-        Contact
-    </a>
-</div>
+<div class="navMeta">
+    <div class="contentNav" #navBar>
+        <a class="navItem" href="#skills">
+            Skills
+        </a>
+        <a class="navItem" href="#portfolio">
+            Portfolio
+        </a>
+        <a class="navItem" href="#about" >
+            About
+        </a>
+        <a class="navItem" href="#contact" >
+            Contact
+        </a>
+    </div>
 
-<div class="hamburgerDiv" (click)="toggleNavBar()">
-    <div class="hamHelper">
-        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    <div class="hamburgerDiv" (click)="toggleNavBar()">
+        <div class="hamHelper">
+            <span class="glyphicon glyphicon-menu-hamburger"></span>
+        </div>
     </div>
 </div>
