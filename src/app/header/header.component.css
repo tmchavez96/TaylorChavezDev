@@ -5,12 +5,17 @@
     overflow: hidden;
 }
 
+.video-container{
+    height: 700px;
+    overflow: hidden;
+}
+
 .backGroundVideo{
-    position: absolute;
-    top: 0;
+    position: relative;
     right: 0;
-    left: 0;
     bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
 }
 
 @media only screen and (max-width: 600px) {

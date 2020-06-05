@@ -6,7 +6,7 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angula
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements AfterViewInit {
-  @ViewChild('videoPlayer') videoplayer: ElementRef;
+  @ViewChild('videoPlayer',{static:true}) videoplayer: ElementRef;
   constructor() { }
 
   ngAfterViewInit() {
