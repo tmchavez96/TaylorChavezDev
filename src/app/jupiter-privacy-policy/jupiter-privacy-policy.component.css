@@ -1,0 +1,57 @@
+.privacy-policy-cont{
+    background-color: black;
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    font-size: 17px;
+    border-radius: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 10px;
+}
+
+.privacy-policy-header{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.app-icon{
+    width: 150px;
+    height: 150px;
+    border: solid white 1px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.mainPageLink{
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 15px;
+    padding: 1px;
+    cursor: pointer;
+    width: min-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.privacy-segment{
+    text-align: left;
+}
+
+.privacy-segment-header{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.privacy-segment-sub-header{
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
